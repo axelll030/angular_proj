@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="col-xs-12">
+    <form>
+      <div class="row">
+        <div class="col-sm-5 form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" class="form-control" />
+        </div>
+        <div class="col-sm-2 form-group">
+          <label for="amount">Amount</label>
+          <input
+            type="number"
+            id="amount"
+            class="form-control"
+            min="0"
+            max="99"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <button class="btn btn-success" type="submit">
+            <span class="glyphicon glyphicon-plus"></span> Add
+          </button>
+          <button class="btn btn-danger" type="button">
+            <span class="glyphicon glyphicon-remove"></span> Remove
+          </button>
+          <button class="btn btn-primary" type="button">
+            <span class="glyphicon glyphicon-trash"></span> Clear
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
